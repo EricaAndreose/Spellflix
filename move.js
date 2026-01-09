@@ -8,7 +8,7 @@ let cards = [
             "images/CV-oriz.png",
         title: "Covered Sun",
         description:
-            "Watch this incredible film made by some incredible people!"
+            ""
     },
     {
         background: "images/ONIR-vert.png",
@@ -16,7 +16,7 @@ let cards = [
             "images/ONI-oriz.png",
         title: "Oniro",
         description:
-            "Watch this incredible film made by some incredible people!"
+            ""
     },
     {
         background:
@@ -25,7 +25,7 @@ let cards = [
             "images/WITC-oriz.png",
         title: "The Witches",
         description:
-            "Watch this incredible film made by some incredible people!"
+            ""
     },
     {
         background:
@@ -34,7 +34,7 @@ let cards = [
             "images/INC-oriz.png",
         title: "Incubo",
         description:
-            "Watch this incredible film made by some incredible people!"
+            ""
     },
     {
         background:
@@ -43,7 +43,7 @@ let cards = [
             "images/LAFIAM-oriz.png",
         title: "La fiamma",
         description:
-            "Watch this incredible film made by some incredible people!"
+            ""
     },
     {
         background:
@@ -644,3 +644,4 @@ const UpdateFeaturedImage = (cardIndex) => {
     // Update top section background for blur effect
     topSection.style.backgroundImage = `url(${card.display_background || card.background})`;
 };
+
