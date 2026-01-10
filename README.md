@@ -1,2 +1,0 @@
-# Spellflix
-netflix lookalike
