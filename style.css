@@ -399,6 +399,11 @@ a {
     padding-left: 10px;
 }
 
+/* Hide mouse cursor across the whole site */
+html, body, * {
+    cursor: none !important;
+}
+
 .top .watch,
 .top .queue {
     padding: 10px 25px;
@@ -1255,3 +1260,4 @@ a {
         padding: 0px 10px;
     }
 }
+
